@@ -129,3 +129,10 @@ td.footer{width:auto; text-align:center; vertical-align:middle;}
     table.footer{font-size:0.33em;}
 }
 
+.divider {
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.bio {
+    padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px
+}
