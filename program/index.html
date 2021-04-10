@@ -44,7 +44,7 @@
     </table>
 
     <h2>Program</h2>
-    <p>This lecture series consists of <b>12 weeks</b> with two meetings each, these being: an <b>pre-lecture lecture</b> and an <b>application lecture</b>. The first aims to put every participant "in the same page" regarding a prerequisite of the application lecture of the current week. The latter aims to expose and apply an approach based on the contents explored in the pre-lecture to expand our current understanding of Deep Learning methods. The final week will consist of a panel with the lecturers of previous weeks to discuss the frontlines of this new field. 
+    <p>This lecture series consists of <b>11 weeks</b> with two classes each, these being: a <b>pre-lecture lecture</b> and an <b>application lecture</b>. The pre-lectures aim to put every participant "on the same page" regarding a prerequisite of the following application lecture, whereas the application lectures aim to expose and apply an approach based on the contents explored in the pre-lecture to expand the understanding of Deep Learning methods. In the final week, we will have an additional panel featuring previous lecturers aiming to discuss the frontlines of this new field and wrapping up the content seen in the entirety of the whole event.
 
     <p>All meetings will be transmited and the links will be posted in this page. Don't worry if you miss any meeting, the recordings will be available at <a href="https://www.youtube.com/c/DataICMC/featured">Data ICMC YouTube Channel</a>!</p>
         
@@ -92,29 +92,36 @@
         </tr>
         <tr>
             <td class="speaker">
-                Boaz Barak, Gal and Yamini (?)
+                Boaz Barak, Gal and Yamini (Harvard)
             </td>
         </tr>
         
         <tr>
             <td class="abstract">
-                Here&rsquo;s where you put the abstract of the talk. Notice that with MathJax you can include mathematical notation in the abstract like \(f(x)=3x-7\) or like \(h^0(X_t,\omega_{X_t}^{\otimes m})\) or whatever you want. Just notice the MathJax line in the head of this HTML document that allows this. I&rsquo;m going to blab just a tiny bit more in this abstract, but all the other abstracts below, except the ones for the plenary talks, will be just <i>Lorem Ipsum</i> text that needs to be replaced by real abstracts.
+                Despite their massive size, successful deep artificial neural networks can exhibit a remarkably small difference between training and test performance. Conventional wisdom attributes small generalization error either to properties of the model family, or to the regularization techniques used during training.
+                Through extensive systematic experiments, we show how these traditional approaches fail to explain why large neural networks generalize well in practice. Specifically, our experiments establish that state-of-the-art convolutional networks for image classification trained with stochastic gradient methods easily fit a random labeling of the training data. This phenomenon is qualitatively unaffected by explicit regularization, and occurs even if we replace the true images by completely unstructured random noise. We corroborate these experimental findings with a theoretical construction showing that simple depth two neural networks already have perfect finite sample expressivity as soon as the number of parameters exceeds the number of data points as it usually does in practice.
+                We interpret our experimental findings by comparison with traditional models.
             </td>
         </tr>
         <tr>
             <td>
                 <a onclick="toggleText('bio-speaker-1')" >Show / Hide Biography</a>
                 <div class='bio' id="bio-speaker-1" style="display: none;">
-                    <b>Bio:</b> Here&rsquo;s where you put the abstract of the talk. Notice that with MathJax you can include mathematical notation in the abstract like \(f(x)=3x-7\) or like \(h^0(X_t,\omega_{X_t}^{\otimes m})\) or whatever you want. Just notice the MathJax line in the head of this HTML document that allows this. I&rsquo;m going to blab just a tiny bit more in this abstract, but all the other abstracts below, except the ones for the plenary talks, will be just <i>Lorem Ipsum</i> text that needs to be replaced by real abstracts.
+                    <b>Bio:</b> Boaz Barak is the Gordon McKay professor of Computer Science at Harvard University's John A. Paulson school of Engineering and Applied Sciences. His research interests include all areas of theoretical computer science and in particular cryptography and computational complexity. Previously, he was a principal researcher at Microsoft Research New England, and before that an associate professor (with tenure) at Princeton University's computer science department. Barak has won the ACM dissertation award, the Packard and Sloan fellowships, and was also selected for Foreign Policy magazine's list of 100 leading global thinkers for 2014 and chosen as a Simons investigator in 2017 . He serves on the editorial boards of several journals and is also a member of the Committee for the Advancement of Theoretical Computer Science and the scientific advisory board for the Simons Institute for the Theory of Computing. He wrote with Sanjeev Arora the textbook "Computational Complexity: A Modern Approach".
+                    <br><br>
+                    Gal Kaplun is a third-year Ph.D. candidate at the Computer Science Department at Harvard University, under the supervision of Prof. Yaron Singer. Gal is working with the Harvard Theory of Machine Learning group, focusing on a deep understanding of Machine Learning models.
+
+                    Gal's research interests revolve around investigating the mysteries of Deep Learning---why and how overparameterized models generalize, what are the failure modes of Deep Networks, how can we make models robust to distribution shift and adversarial examples. At the moment, Gal is exploring the theory behind the emergent area of self-supervised learning, in particular, what is the driving mechanism behind contrastive learning
+
                 </div>
             </td>
         </tr>
     </table>
+    
 
-
-    <b>Week 2</b>
+    <b>Week 2 (Coming soon!)</b>
     <hr class="divider">
-    <table>
+    <!-- <table>
         <tr>
             <td class="date" rowspan="3">
                 Apr 26, 2021 <br> Time yet to be defined
@@ -152,7 +159,19 @@
         
         <tr>
             <td class="abstract">
-                Here&rsquo;s where you put the abstract of the talk. Notice that with MathJax you can include mathematical notation in the abstract like \(f(x)=3x-7\) or like \(h^0(X_t,\omega_{X_t}^{\otimes m})\) or whatever you want. Just notice the MathJax line in the head of this HTML document that allows this. I&rsquo;m going to blab just a tiny bit more in this abstract, but all the other abstracts below, except the ones for the plenary talks, will be just <i>Lorem Ipsum</i> text that needs to be replaced by real abstracts.
+                A longstanding goal in deep learning research has been to precisely characterize
+    training and generalization. However, the often complex loss landscapes of neural
+    networks have made a theory of learning dynamics elusive. In this work, we show
+    that for wide neural networks the learning dynamics simplify considerably and
+    that, in the infinite width limit, they are governed by a linear model obtained from
+    the first-order Taylor expansion of the network around its initial parameters. Furthermore, mirroring the correspondence between wide Bayesian neural networks
+    and Gaussian processes, gradient-based training of wide neural networks with a
+    squared loss produces test set predictions drawn from a Gaussian process with a
+    particular compositional kernel. While these theoretical results are only exact in the
+    infinite width limit, we nevertheless find excellent empirical agreement between
+    the predictions of the original network and those of the linearized version even
+    for finite practically-sized networks. This agreement is robust across different
+    architectures, optimization methods, and loss functions.
             </td>
         </tr>
         <tr>
@@ -205,7 +224,7 @@
         
         <tr>
             <td class="abstract">
-                Here&rsquo;s where you put the abstract of the talk. Notice that with MathJax you can include mathematical notation in the abstract like \(f(x)=3x-7\) or like \(h^0(X_t,\omega_{X_t}^{\otimes m})\) or whatever you want. Just notice the MathJax line in the head of this HTML document that allows this. I&rsquo;m going to blab just a tiny bit more in this abstract, but all the other abstracts below, except the ones for the plenary talks, will be just <i>Lorem Ipsum</i> text that needs to be replaced by real abstracts.
+                The choice of initial learning rate can have a profound effect on the performance of deep networks. We present a class of neural networks with solvable training dynamics, and confirm their predictions empirically in practical deep learning settings. The networks exhibit sharply distinct behaviors at small and large learning rates. The two regimes are separated by a phase transition. In the small learning rate phase, training can be understood using the existing theory of infinitely wide neural networks. At large learning rates the model captures qualitatively distinct phenomena, including the convergence of gradient descent dynamics to flatter minima. One key prediction of our model is a narrow range of large, stable learning rates. We find good agreement between our model's predictions and training dynamics in realistic deep learning settings. Furthermore, we find that the optimal performance in such settings is often found in the large learning rate phase. We believe our results shed light on characteristics of models trained at different learning rates. In particular, they fill a gap between existing wide neural network theory, and the nonlinear, large learning rate, training dynamics relevant to practice.
             </td>
         </tr>
         <tr>
@@ -247,18 +266,20 @@
                 May 14, 2021 <br> 3:00 PM (GMT -3:00)
             </td>
             <td class="title" style="color: #52739e;">
-                Lecture 4: Mean field theory of Neural Networks (English)
+                Lecture 4: Mean-field theory of two-layers neural networks: dimension-free bounds and kernel limit (English)
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                Guy Gur-Ari (?)
+                Samuel S Schoenholz (?)
             </td>
         </tr>
         
         <tr>
             <td class="abstract">
-                Here&rsquo;s where you put the abstract of the talk. Notice that with MathJax you can include mathematical notation in the abstract like \(f(x)=3x-7\) or like \(h^0(X_t,\omega_{X_t}^{\otimes m})\) or whatever you want. Just notice the MathJax line in the head of this HTML document that allows this. I&rsquo;m going to blab just a tiny bit more in this abstract, but all the other abstracts below, except the ones for the plenary talks, will be just <i>Lorem Ipsum</i> text that needs to be replaced by real abstracts.
+                We consider learning two layer neural networks using stochastic gradient descent. The mean-field description of this learning dynamics approximates the evolution of the network weights by an evolution in the space of probability distributions in RD (where D is the number of parameters associated to each neuron). This evolution can be defined through a partial differential equation or, equivalently, as the gradient flow in the Wasserstein space of probability distributions. Earlier work shows that (under some regularity assumptions), the mean field description is accurate as soon as the number of hidden units is much larger than the dimension D. In this paper we establish stronger and more general approximation guarantees. First of all, we show that the number of hidden units only needs to be larger than a quantity dependent on the regularity properties of the data, and independent of the dimensions. Next, we generalize this analysis to the case of unbounded activation functions, which was not covered by earlier bounds. We extend our results to noisy stochastic gradient descent.
+                Finally, we show that kernel ridge regression can be recovered as a special limit of the mean field analysis.
+
             </td>
         </tr>
         <tr>
@@ -699,6 +720,13 @@
                 Here&rsquo;s the abstract for the plenary talk! Notice again that the formatting of this time-block is a bit different that the rest of of the talks.
                 Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
             </td>
+        </tr>
+    </table> -->
+
+    <table class="footer">
+        <tr>
+            <td class="footer">Design by <a target="_blank" href="http://math.ucr.edu/~mpierce/">Mike Pierce</a></td> 
+            <td class="footer">&copy; Data ICMC</td> 
         </tr>
     </table>
 
