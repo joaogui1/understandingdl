@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UnderstandingDL - Lecture Series
+X-WR-TIMEZONE:America/Sao_Paulo
+X-WR-CALDESC:Official calendar of all UnderstandingDL Lectures\, promoted b
+ y Data ICMC.
+END:VCALENDAR
