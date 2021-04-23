@@ -46,7 +46,7 @@
             </td>
         </tr>
     </table>
-
+    
     <h2>Program</h2>
     <p>This lecture series consists of <b>11 weeks</b> with two classes each, these being: an <b>introductory lecture</b> and an <b>application lecture</b>. The introductory lectures aim to put every participant "on the same page" regarding a prerequisite of the following application lecture, whereas the application lectures aim to expose and apply an approach based on the contents explored in the introductory lecture to expand the understanding of Deep Learning methods. In the final week, we will have an additional panel featuring previous lecturers aiming to discuss the frontlines of this new field and wrapping up the content seen in the entirety of the whole event.
 
@@ -95,7 +95,7 @@
                 Apr 23, 2021 <br> 2:00 PM (GMT -3:00)
             </td>
             <td class="title" style="color: #52739e;">
-                Lecture 1: Understanding Deep Learning Requires Rethinking Generalization (English) - <a href="https://youtu.be/wi9mjnDfS7Y">Stream link</a>
+                Lecture 1: Understanding Generalization Requires Rethinking Deep Learning (English) - <a href="https://youtu.be/wi9mjnDfS7Y">Stream link</a>
             </td>
         </tr>
         <tr>
@@ -106,9 +106,12 @@
         
         <tr>
             <td class="abstract">
-                Despite their massive size, successful deep artificial neural networks can exhibit a remarkably small difference between training and test performance. Conventional wisdom attributes small generalization error either to properties of the model family, or to the regularization techniques used during training.
-                Through extensive systematic experiments, we show how these traditional approaches fail to explain why large neural networks generalize well in practice. Specifically, our experiments establish that state-of-the-art convolutional networks for image classification trained with stochastic gradient methods easily fit a random labeling of the training data. This phenomenon is qualitatively unaffected by explicit regularization, and occurs even if we replace the true images by completely unstructured random noise. We corroborate these experimental findings with a theoretical construction showing that simple depth two neural networks already have perfect finite sample expressivity as soon as the number of parameters exceeds the number of data points as it usually does in practice.
-                We interpret our experimental findings by comparison with traditional models.
+                The generalization gap of a learning algorithm is the expected difference between its performance on the training data and its performance on fresh unseen test samples. Modern deep learning algorithms typically have large generalization gaps, as they use more parameters than the size of their training set. Moreover the best known rigorous bounds on their generalization gap are often vacuous.
+                In this talk we will see a new upper bound on the generalization gap of classifiers that are obtained by first using self-supervision to learn a complex representation of the (label free) training data, and then fitting a simple (e.g., linear) classifier to the labels. Such classifiers have become increasingly popular in recent years, as they offer several practical advantages and have been shown to approach state-of-art results.
+                We show that (under the assumptions described below) the generalization gap of such classifiers tends to zero as long as the complexity of the simple classifier is asymptotically smaller than the number of training samples. We stress that our bound is independent of the complexity of the representation that can use an arbitrarily large number of parameters. Our bound holds assuming that the learning algorithm satisfies certain noise-robustness (adding small amount of label noise causes small degradation in performance) and rationality (getting the wrong label is not better than getting no label at all) properties.  These conditions widely (and sometimes provably) hold across many standard architectures. We complement this result with an empirical study, demonstrating that our bound is non-vacuous for many popular representation-learning based classifiers on CIFAR-10 and ImageNet, including SimCLR, AMDIM and BigBiGAN.
+
+                The talk will not assume any specific background in machine learning, and should be accessible to a general mathematical audience. Joint work with Yamini Bansal.
+
             </td>
         </tr>
         <tr>
