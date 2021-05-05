@@ -250,26 +250,7 @@
 
     <b>Week 4</b>
     <hr class="divider">
-    <table>
-        <tr>
-            <td class="date" rowspan="3">
-                May 10, 2021 <br> Time yet to be defined
-            </td>
-            <td class="title" style="color: #b2132e;">
-                Introductory lecture 4: Mean field methods (Portuguese)
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                To be defined
-            </td>
-        </tr>
-        <!-- <tr>
-            <td class="abstract">
-                Here&rsquo;s where you put the abstract of the talk. Notice that with MathJax you can include mathematical notation in the abstract like \(f(x)=3x-7\) or like \(h^0(X_t,\omega_{X_t}^{\otimes m})\) or whatever you want. Just notice the MathJax line in the head of this HTML document that allows this. I&rsquo;m going to blab just a tiny bit more in this abstract, but all the other abstracts below, except the ones for the plenary talks, will be just <i>Lorem Ipsum</i> text that needs to be replaced by real abstracts.
-            </td>
-        </tr> -->
-    </table>
+
     
     <table id="PUTSPEAKERNAMEHERE">
         <tr>
@@ -277,7 +258,7 @@
                 May 14, 2021 <br> 3:00 PM (GMT -3:00)
             </td>
             <td class="title" style="color: #52739e;">
-                Lecture 4: Mean-field theory of two-layers neural networks: dimension-free bounds and kernel limit (English)
+                Lecture 4: Signal Propagation and Dynamical Isometry in Deep Neural Networks
             </td>
         </tr>
         <tr>
@@ -288,19 +269,18 @@
         
         <tr>
             <td class="abstract">
-                We consider learning two layer neural networks using stochastic gradient descent. The mean-field description of this learning dynamics approximates the evolution of the network weights by an evolution in the space of probability distributions in RD (where D is the number of parameters associated to each neuron). This evolution can be defined through a partial differential equation or, equivalently, as the gradient flow in the Wasserstein space of probability distributions. Earlier work shows that (under some regularity assumptions), the mean field description is accurate as soon as the number of hidden units is much larger than the dimension D. In this paper we establish stronger and more general approximation guarantees. First of all, we show that the number of hidden units only needs to be larger than a quantity dependent on the regularity properties of the data, and independent of the dimensions. Next, we generalize this analysis to the case of unbounded activation functions, which was not covered by earlier bounds. We extend our results to noisy stochastic gradient descent.
-                Finally, we show that kernel ridge regression can be recovered as a special limit of the mean field analysis.
-
+                Random neural networks converge to Gaussian Processes in the limit of infinite width. In this talk we will study how signals propagate through these wide and random networks. At large depth, we will show that a phase diagram naturally emerges between an “ordered” phase where all pairs of inputs converge to the same output and a “chaotic” phase where nearby become increasingly dissimilar with depth. We will then consider fluctuations of gradients as they are backpropagated through the network. We will show that the distribution of gradient fluctuations can be controlled via the random distribution of weights used for initialization. We will discuss empirical observations about the relationship between this prior and training dynamics. In his talk, Lechao Xiao will elaborate on this relationship via the Neural Tangent Kernel.
             </td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td>
-                <a onclick="toggleText('bio-speaker-4')" >Show / Hide Biography</a>
-                <div class='bio' id="bio-speaker-4" style="display: none;">
-                    <b>Bio:</b> Here&rsquo;s where you put the abstract of the talk. Notice that with MathJax you can include mathematical notation in the abstract like \(f(x)=3x-7\) or like \(h^0(X_t,\omega_{X_t}^{\otimes m})\) or whatever you want. Just notice the MathJax line in the head of this HTML document that allows this. I&rsquo;m going to blab just a tiny bit more in this abstract, but all the other abstracts below, except the ones for the plenary talks, will be just <i>Lorem Ipsum</i> text that needs to be replaced by real abstracts.
+                <a onclick="toggleText('bio-speaker-Sam')" >Show / Hide Biography</a>
+                <div class='bio' id="bio-speaker-Sam" style="display: none;">
+                    <b>Bio:</b> Sam is a Senior Research Scientist at Google Brain working at the intersection between Machine Learning and Physics. His work focuses on better understanding the large-width limit of neural networks using techniques from statistical physics as well as applying advances in Machine Learning to physical systems. Sam received his PhD in Physics from the University of Pennsylvania in 2015.
+
                 </div>
             </td>
-        </tr> -->
+        </tr>
     </table>
 
     <b>Week 5</b>
